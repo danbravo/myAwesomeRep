@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Login Suite" verbose="1" parallel="false">
+<suite name="LALALA" verbose="1" parallel="false">
     <test name="Login and info change test">
         <parameter name="email" value="patvers@gmail.com"/>
         <parameter name="pass" value="2342925dan"/>
