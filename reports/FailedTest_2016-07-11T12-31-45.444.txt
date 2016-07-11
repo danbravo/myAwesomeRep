@@ -1,6 +1,0 @@
-Time: Mon Jul 11 12:31:45 EEST 2016
-Test 'changeDate' FAILED
-Class: [TestClass name=class reg.TestLogIn]
-Priority of method: 8
-Methods depended upon: []
-
