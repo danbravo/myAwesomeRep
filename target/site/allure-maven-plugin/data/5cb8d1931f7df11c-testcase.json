@@ -1,0 +1,68 @@
+{
+  "uid" : "5cb8d1931f7df11c",
+  "name" : "pressLogInBtn",
+  "title" : "Press log in btn",
+  "time" : {
+    "start" : 1467979217185,
+    "stop" : 1467979219386,
+    "duration" : 2201
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "3ff05764ce83a8cd",
+    "name" : "Login Suite : Login and info change test[date=100, gender=female, pass=2342925dan, surname=Педько, name=Михаил, midname=Васильевич, email=patvers@gmail.com]",
+    "title" : "Login Suite : Login and info change test[date=100, gender=female, pass=2342925dan, surname=Педько, name=Михаил, midname=Васильевич, email=patvers@gmail.com]"
+  },
+  "steps" : [ {
+    "name" : "clickLogInBtn",
+    "title" : "Proceeding to login page",
+    "time" : {
+      "start" : 1467979217190,
+      "stop" : 1467979219385,
+      "duration" : 2195
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "25072@SATTVA.main(1)"
+  }, {
+    "name" : "suite-title",
+    "value" : "Login Suite : Login and info change test[date=100, gender=female, pass=2342925dan, surname=Педько, name=Михаил, midname=Васильевич, email=patvers@gmail.com]"
+  }, {
+    "name" : "feature",
+    "value" : "Log In"
+  }, {
+    "name" : "host",
+    "value" : "SATTVA"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Logging and changing basic user info"
+  }, {
+    "name" : "suite-name",
+    "value" : "Login Suite : Login and info change test[date=100, gender=female, pass=2342925dan, surname=Педько, name=Михаил, midname=Васильевич, email=patvers@gmail.com]"
+  } ],
+  "parameters" : [ ]
+}

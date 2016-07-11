@@ -1,0 +1,68 @@
+{
+  "uid" : "c0026b1dd3232070",
+  "name" : "typeEmail[patvers@gmail.com]",
+  "title" : "Type email [patvers@gmail.com]",
+  "time" : {
+    "start" : 1467979219397,
+    "stop" : 1467979219677,
+    "duration" : 280
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "3ff05764ce83a8cd",
+    "name" : "Login Suite : Login and info change test[date=100, gender=female, pass=2342925dan, surname=Педько, name=Михаил, midname=Васильевич, email=patvers@gmail.com]",
+    "title" : "Login Suite : Login and info change test[date=100, gender=female, pass=2342925dan, surname=Педько, name=Михаил, midname=Васильевич, email=patvers@gmail.com]"
+  },
+  "steps" : [ {
+    "name" : "typeEmail[patvers@gmail.com]",
+    "title" : "Typing user email",
+    "time" : {
+      "start" : 1467979219400,
+      "stop" : 1467979219677,
+      "duration" : 277
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-title",
+    "value" : "Login Suite : Login and info change test[date=100, gender=female, pass=2342925dan, surname=Педько, name=Михаил, midname=Васильевич, email=patvers@gmail.com]"
+  }, {
+    "name" : "host",
+    "value" : "SATTVA"
+  }, {
+    "name" : "thread",
+    "value" : "25072@SATTVA.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "Log In"
+  }, {
+    "name" : "story",
+    "value" : "Logging and changing basic user info"
+  }, {
+    "name" : "suite-name",
+    "value" : "Login Suite : Login and info change test[date=100, gender=female, pass=2342925dan, surname=Педько, name=Михаил, midname=Васильевич, email=patvers@gmail.com]"
+  } ],
+  "parameters" : [ ]
+}

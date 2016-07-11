@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1468229563880" stop="1468229605183" version="1.4.22" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Login Suite : Login and info change test[date=12, gender=female, pass=2342925dan, surname=Педько, name=Михаил, midname=Васильевич, email=patvers@gmail.com]</name>
+    <title>Login Suite : Login and info change test[date=12, gender=female, pass=2342925dan, surname=Педько, name=Михаил, midname=Васильевич, email=patvers@gmail.com]</title>
+    <test-cases>
+        <test-case start="1468229568402" stop="1468229574953" status="passed">
+            <name>openPage</name>
+            <steps>
+                <step start="1468229568595" stop="1468229574942" status="passed">
+                    <name>openPage</name>
+                    <title>Opening mane page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Logging and changing basic user info"/>
+                <label name="feature" value="Log In"/>
+                <label name="host" value="SATTVA"/>
+                <label name="thread" value="57204@SATTVA.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1468229575037" stop="1468229578385" status="passed">
+            <name>pressLogInBtn</name>
+            <steps>
+                <step start="1468229575055" stop="1468229578384" status="passed">
+                    <name>clickLogInBtn</name>
+                    <title>Proceeding to login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Logging and changing basic user info"/>
+                <label name="feature" value="Log In"/>
+                <label name="host" value="SATTVA"/>
+                <label name="thread" value="57204@SATTVA.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1468229578422" stop="1468229578759" status="passed">
+            <name>typeEmail[patvers@gmail.com]</name>
+            <steps>
+                <step start="1468229578430" stop="1468229578759" status="passed">
+                    <name>typeEmail[patvers@gmail.com]</name>
+                    <title>Typing user email</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Logging and changing basic user info"/>
+                <label name="feature" value="Log In"/>
+                <label name="host" value="SATTVA"/>
+                <label name="thread" value="57204@SATTVA.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1468229578767" stop="1468229579140" status="passed">
+            <name>typePass[2342925dan]</name>
+            <steps>
+                <step start="1468229578771" stop="1468229579139" status="passed">
+                    <name>typePass[2342925dan]</name>
+                    <title>Typing user password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Logging and changing basic user info"/>
+                <label name="feature" value="Log In"/>
+                <label name="host" value="SATTVA"/>
+                <label name="thread" value="57204@SATTVA.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1468229579142" stop="1468229585996" status="passed">
+            <name>clickProceedLogInBtn</name>
+            <steps>
+                <step start="1468229579145" stop="1468229585996" status="passed">
+                    <name>clickProceedLogInBtn</name>
+                    <title>Logging in</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Logging and changing basic user info"/>
+                <label name="feature" value="Log In"/>
+                <label name="host" value="SATTVA"/>
+                <label name="thread" value="57204@SATTVA.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1468229586002" stop="1468229590728" status="passed">
+            <name>proceedToProfilePage</name>
+            <steps>
+                <step start="1468229586016" stop="1468229590727" status="passed">
+                    <name>clickProfilePageBtn</name>
+                    <title>Opening profile page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Logging and changing basic user info"/>
+                <label name="feature" value="Log In"/>
+                <label name="host" value="SATTVA"/>
+                <label name="thread" value="57204@SATTVA.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1468229590735" stop="1468229592461" status="passed">
+            <name>changeNames[Михаил,Педько,Васильевич]</name>
+            <steps>
+                <step start="1468229590739" stop="1468229592461" status="passed">
+                    <name>typeNames[Михаил, Педько, Васильевич]</name>
+                    <title>Changing user name, surname and midname to : Михаил, Педько, Васильевич</title>
+                    <attachments>
+                        <attachment title="[Михаил, Педько, Васильевич]" source="86bc1d98-46e8-442b-8e2b-12e48213cff6-attachment.txt" type="text/plain"/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Logging and changing basic user info"/>
+                <label name="feature" value="Log In"/>
+                <label name="host" value="SATTVA"/>
+                <label name="thread" value="57204@SATTVA.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1468229592471" stop="1468229592627" status="passed">
+            <name>changeGender[female]</name>
+            <steps>
+                <step start="1468229592474" stop="1468229592626" status="passed">
+                    <name>chooseGender[female]</name>
+                    <title>Changing user gender to : female</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Logging and changing basic user info"/>
+                <label name="feature" value="Log In"/>
+                <label name="host" value="SATTVA"/>
+                <label name="thread" value="57204@SATTVA.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1468229592631" stop="1468229593184" status="passed">
+            <name>changeDate[12]</name>
+            <steps>
+                <step start="1468229592634" stop="1468229593008" status="passed">
+                    <name>clickCalendar</name>
+                    <title>Opening calendar</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1468229593010" stop="1468229593179" status="passed">
+                    <name>chooseDate[12]</name>
+                    <title>Changing birth date to : 12</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Logging and changing basic user info"/>
+                <label name="feature" value="Log In"/>
+                <label name="host" value="SATTVA"/>
+                <label name="thread" value="57204@SATTVA.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1468229593188" stop="1468229603827" status="passed">
+            <name>clickSaveBtn</name>
+            <steps>
+                <step start="1468229593191" stop="1468229598836" status="passed">
+                    <name>clickSaveBtn</name>
+                    <title>Saving profile changes</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1468229598838" stop="1468229603827" status="passed">
+                    <name>clickProceedSaveBtn</name>
+                    <title>Clicking proceed button after saving</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Logging and changing basic user info"/>
+                <label name="feature" value="Log In"/>
+                <label name="host" value="SATTVA"/>
+                <label name="thread" value="57204@SATTVA.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

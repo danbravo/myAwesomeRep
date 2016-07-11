@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite test" verbose="1" parallel="false">
+    <test name="LoginTest">
+        <parameter name="option" value="pat"/>
+        <parameter name="newEmail" value="lalalaTest@gmail.com"/>
+        <parameter name="newPass" value="ururupass234"/>
+        <groups>
+            <define name="createAccount"/>
+            <define name="fillAccount"/>
+            <run>
+                <exclude name="fillAccount"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="reg.TestReg"/>
+        </classes>
+
+    </test>
+</suite>

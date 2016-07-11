@@ -1,0 +1,137 @@
+{
+  "time" : {
+    "start" : 1467979211151,
+    "stop" : 1467979274889,
+    "duration" : 63738
+  },
+  "testSuites" : [ {
+    "uid" : "3ff05764ce83a8cd",
+    "name" : "Login Suite : Login and info change test[date=100, gender=female, pass=2342925dan, surname=Педько, name=Михаил, midname=Васильевич, email=patvers@gmail.com]",
+    "title" : "Login Suite : Login and info change test[date=100, gender=female, pass=2342925dan, surname=Педько, name=Михаил, midname=Васильевич, email=patvers@gmail.com]",
+    "time" : {
+      "start" : 1467979211151,
+      "stop" : 1467979274889,
+      "duration" : 63738
+    },
+    "statistic" : {
+      "total" : 10,
+      "passed" : 9,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 1
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "da6489892bae94b3",
+      "name" : "openPage",
+      "title" : "Open page",
+      "time" : {
+        "start" : 1467979211151,
+        "stop" : 1467979217115,
+        "duration" : 5964
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "5cb8d1931f7df11c",
+      "name" : "pressLogInBtn",
+      "title" : "Press log in btn",
+      "time" : {
+        "start" : 1467979217185,
+        "stop" : 1467979219386,
+        "duration" : 2201
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "c0026b1dd3232070",
+      "name" : "typeEmail[patvers@gmail.com]",
+      "title" : "Type email [patvers@gmail.com]",
+      "time" : {
+        "start" : 1467979219397,
+        "stop" : 1467979219677,
+        "duration" : 280
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "80d7ec04ff50326d",
+      "name" : "typePass[2342925dan]",
+      "title" : "Type pass [2342925dan]",
+      "time" : {
+        "start" : 1467979219682,
+        "stop" : 1467979219902,
+        "duration" : 220
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "91c28dd4af04a556",
+      "name" : "clickProceedLogInBtn",
+      "title" : "Click proceed log in btn",
+      "time" : {
+        "start" : 1467979219904,
+        "stop" : 1467979226768,
+        "duration" : 6864
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "e3bde906155df133",
+      "name" : "proceedToProfilePage",
+      "title" : "Proceed to profile page",
+      "time" : {
+        "start" : 1467979226775,
+        "stop" : 1467979231467,
+        "duration" : 4692
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "6f4b080ab313175d",
+      "name" : "changeNames[Михаил,Педько,Васильевич]",
+      "title" : "Change names [Михаил,Педько,Васильевич]",
+      "time" : {
+        "start" : 1467979231473,
+        "stop" : 1467979232845,
+        "duration" : 1372
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "6fa6d250ff19dbf8",
+      "name" : "changeGender[female]",
+      "title" : "Change gender [female]",
+      "time" : {
+        "start" : 1467979232850,
+        "stop" : 1467979233024,
+        "duration" : 174
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "b5989cc45df823e0",
+      "name" : "changeDate[100]",
+      "title" : "Change date [100]",
+      "time" : {
+        "start" : 1467979233027,
+        "stop" : 1467979264495,
+        "duration" : 31468
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    }, {
+      "uid" : "7b9f10cf7d000c0a",
+      "name" : "clickSaveBtn",
+      "title" : "Click save btn",
+      "time" : {
+        "start" : 1467979264499,
+        "stop" : 1467979274889,
+        "duration" : 10390
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

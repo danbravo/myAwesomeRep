@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite test" verbose="1" parallel="false">
+    <test name="AgainTest">
+
+        <classes>
+            <class name="reg.SomeTest"/>
+        </classes>
+
+    </test>
+</suite>

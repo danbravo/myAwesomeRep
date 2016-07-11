@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Login Suite" verbose="1" parallel="false">
+    <test name="Login and info change test">
+        <parameter name="email" value="patvers@gmail.com"/>
+        <parameter name="pass" value="2342925dan"/>
+        <parameter name="name" value="Михаил"/>
+        <parameter name="surname" value="Педько"/>
+        <parameter name="midname" value="Васильевич"/>
+        <parameter name="gender" value="female"/>
+        <parameter name="date" value="12"/>
+        <classes>
+            <class name="reg.TestLogIn"/>
+        </classes>
+
+    </test>
+</suite>

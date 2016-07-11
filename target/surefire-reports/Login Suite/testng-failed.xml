@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Login Suite]">
+  <parameter name="date" value="100"/>
+  <parameter name="gender" value="female"/>
+  <parameter name="pass" value="2342925dan"/>
+  <parameter name="surname" value="Педько"/>
+  <parameter name="name" value="Михаил"/>
+  <parameter name="midname" value="Васильевич"/>
+  <parameter name="email" value="patvers@gmail.com"/>
+  <test name="Login and info change test">
+    <parameter name="date" value="100"/>
+    <parameter name="gender" value="female"/>
+    <parameter name="pass" value="2342925dan"/>
+    <parameter name="surname" value="Педько"/>
+    <parameter name="name" value="Михаил"/>
+    <parameter name="midname" value="Васильевич"/>
+    <parameter name="email" value="patvers@gmail.com"/>
+    <classes>
+      <class name="reg.TestLogIn"/>
+    </classes>
+  </test> <!-- Login and info change test -->
+  <test name="Login and info change test(failed)">
+    <parameter name="date" value="100"/>
+    <parameter name="gender" value="female"/>
+    <parameter name="pass" value="2342925dan"/>
+    <parameter name="surname" value="Педько"/>
+    <parameter name="name" value="Михаил"/>
+    <parameter name="midname" value="Васильевич"/>
+    <parameter name="email" value="patvers@gmail.com"/>
+    <classes>
+      <class name="reg.TestLogIn">
+        <methods>
+          <include name="changeDate" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- reg.TestLogIn -->
+    </classes>
+  </test> <!-- Login and info change test(failed) -->
+</suite> <!-- Failed suite [Login Suite] -->
